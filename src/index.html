@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>AngularFirebase</title>
@@ -7,7 +8,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
   <app-root></app-root>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBRrIRwd2ny6VwXfREfVmytTUsw4srL3WY",
+      authDomain: "part-time-demon.firebaseapp.com",
+      projectId: "part-time-demon",
+      storageBucket: "part-time-demon.appspot.com",
+      messagingSenderId: "324796452134",
+      appId: "1:324796452134:web:7360f44632cbe0ff8e05e7",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
 </body>
+
 </html>

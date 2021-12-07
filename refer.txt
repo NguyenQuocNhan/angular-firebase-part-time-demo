@@ -1,0 +1,3 @@
+https://blog.jscrambler.com/building-an-app-with-angular-firebase
+https://github.com/jay3dec/angular-firebase
+https://github.com/angular/angularfire/blob/master/docs/firestore/querying-collections.md
